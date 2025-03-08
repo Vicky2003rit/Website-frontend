@@ -1,0 +1,11 @@
+/* slider.css */
+#carouselExampleAutoplaying {
+  height: 60vh; /* Set the slider's height to 50% of the viewport height */
+  overflow: hidden; /* Prevents overflow */
+}
+
+.carousel-item img {
+  height: 100%; /* Set the image height to fill the parent container */
+  width: 100%; /* Ensure the image spans the full width */
+  object-fit: contain; /* Ensures the whole image is displayed without cropping */
+}
